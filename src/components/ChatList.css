@@ -1,0 +1,79 @@
+
+
+.chat-list {
+    padding: 20px;
+  }
+.profile-pic {
+    margin-right: 10px; 
+  }
+  
+.participant-name {
+    margin-left: 10px; 
+  }
+  
+  .chat-list input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    transition: border-color 0.3s;
+  }
+  
+  .chat-list input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  .chat-list button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chat-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .chat-item {
+    background-color: aquamarine;
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chat-item span {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .chat-item .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-item .open-chat-btn {
+    background-color: #28a745;
+  }
+  
+  .chat-item .open-chat-btn:hover {
+    background-color: #218838;
+  }
+  
+  .chat-item .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .chat-item .delete-btn:hover {
+    background-color: #c82333;
+  }
+  

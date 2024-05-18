@@ -1,0 +1,42 @@
+/* Message.css */
+.message {
+    margin: 10px;
+    padding: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    border-radius: 8px;
+  }
+  
+  .own-message {
+    align-self: flex-end;
+    background-color: #DCF8C6; 
+    justify-content: flex-end; 
+  }
+  
+  .other-message {
+    align-self: flex-start;
+    background-color: #EAEAEA;
+  }
+  
+  .message-content {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .message-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    color: #888;
+  }
+  
+  .message-user {
+    font-weight: bold;
+    margin-right: 4px;
+  }
+  
+  .message-timestamp {
+    font-size: 12px;
+  }
+  
